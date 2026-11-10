@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+@theme {
+  /* SAVORY BRAND COLOURS */
+
+  --color-savory-dark: #171914;
+  --color-savory-gold: #C9AD7B;
+  --color-savory-ivory: #F2EDE3;
+  --color-savory-charcoal: #34372E;
+
+  /* ADDITIONAL BRAND COLOURS */
+
+  --color-savory-bronze: #96764A;
+  --color-savory-sand: #D8C9AD;
+  --color-savory-espresso: #211D17;
+  --color-savory-sage: #858675;
+
+  /* TYPOGRAPHY */
+
+  --font-display: "Cormorant Garamond", serif;
+  --font-body: "DM Sans", sans-serif;
+  --font-ui: "Manrope", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #faf8f3;
+}

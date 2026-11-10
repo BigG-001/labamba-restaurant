@@ -1,0 +1,235 @@
+const foods = [
+  {
+    id: 1,
+    name: "Signature Jollof Rice",
+    description:
+      "Richly prepared Nigerian jollof rice, full of flavour and served with care.",
+    category: "Main Course",
+    cuisine: "Nigerian",
+    price: "9000",
+    image: "/images/jollof-rice.jpeg",
+    featured: true,
+  },
+  {
+    id: 2,
+    name: "Native Snail Sauce",
+    description:
+      "Well prepared and seasoned snail with an amazing aroma",
+    category: "starters",
+    cuisine: "Nigerian",
+    price: "8000",
+    image: "/images/snail.jpg",
+    featured: true,
+  },
+  {
+    id: 3,
+    name: "Spycy Noodles",
+    description:
+      "A delicious Nigerian soup prepared with catfish and carefully selected ingredients.",
+    category: "Main Course",
+    cuisine: "Nigerian",
+    price: "4000",
+    image: "/images/noodles1.jpg",
+    featured: true,
+  },
+  {
+    id: 4,
+    name: "Atama Soup",
+    description:
+      "A delicious Nigerian soup prepared with catfish and carefully selected ingredients.",
+    category: "Main Course",
+    cuisine: "Nigerian",
+    price: "6000",
+    image: "/images/atama-soup.jpg",
+    featured: true,
+  },
+  {
+    id: 5,
+    name: "Milky Doughnut",
+    description:
+      "A delicious Nigerian soup prepared with catfish and carefully selected ingredients.",
+    category: "Main Course",
+    cuisine: "Desserts",
+    price: "3000",
+    image: "/images/milky-doughnut.jpg",
+    featured: true,
+  },
+  {
+    id: 6,
+    name: "Beans & Plantain",
+    description:
+      "A delicious Nigerian soup prepared with catfish and carefully selected ingredients.",
+    category: "Main Course",
+    cuisine: "Nigerian",
+    price: "6000",
+    image: "/images/beans-plantain.jpeg",
+    featured: true,
+  },
+  {
+    id: 7,
+    name: "Shawama",
+    description:
+      "A delicious Nigerian soup prepared with catfish and carefully selected ingredients.",
+    category: "Main Course",
+    cuisine: "Desserts",
+    price: "4500",
+    image: "/images/shawama.jpg",
+    featured: true,
+  },
+  {
+    id: 8,
+    name: "Okoro Soup",
+    description:
+      "A delicious Nigerian soup prepared with catfish and carefully selected ingredients.",
+    category: "Main Course",
+    cuisine: "Nigerian",
+    price: "5500",
+    image: "/images/okoro.jpg",
+    featured: true,
+  },
+  {
+    id: 9,
+    name: "White Rice with Sauce",
+    description:
+      "A delicious Nigerian soup prepared with catfish and carefully selected ingredients.",
+    category: "Main Course",
+    cuisine: "Nigerian",
+    price: "5000",
+    image: "/images/white-rice.jpg",
+    featured: true,
+  },
+   {
+    id: 10,
+    name: "Spring Row",
+    description:
+      "A delicious Nigerian soup prepared with catfish and carefully selected ingredients.",
+    category: "Starters",
+    cuisine: "Desserts",
+    price: "2500",
+    image: "/images/springrow.jpg",
+    featured: true,
+  },
+  {
+    id: 11,
+    name: "Guiness Malt",
+    description:
+      "A delicious Nigerian soup prepared with catfish and carefully selected ingredients.",
+    category: "starters",
+    cuisine: "Drinks",
+    price: "1200",
+    image: "/images/malta.jpg",
+    featured: true,
+  },
+  {
+    id: 12,
+    name: "Chicken Pasta",
+    description:
+      "A delicious Nigerian soup prepared with catfish and carefully selected ingredients.",
+    category: "Main Course",
+    cuisine: "Continental",
+    price: "5000",
+    image: "/images/pasta.jpg",
+    featured: true,
+  },
+  {
+    id: 13,
+    name: "Pineapple Juice",
+    description:
+      "A delicious Nigerian soup prepared with catfish and carefully selected ingredients.",
+    category: "starters",
+    cuisine: "drinks",
+    price: "1800",
+    image: "/images/pineaple-juice.jpg",
+    featured: true,
+  },
+  {
+    id: 14,
+    name: "Grilled Chicken",
+    description:
+      "A delicious Nigerian soup prepared with catfish and carefully selected ingredients.",
+    category: "Main Course",
+    cuisine: "Nigerian",
+    price: "9000",
+    image: "/images/grilled-chicken.jpeg",
+    featured: true,
+  },
+  {
+    id: 15,
+    name: "C-way Table Water",
+    description:
+      "A delicious Nigerian soup prepared with catfish and carefully selected ingredients.",
+    category: "Starters",
+    cuisine: "Drinks",
+    price: "800",
+    image: "/images/cway-water.jpg",
+    featured: true,
+  },
+  {
+    id: 16,
+    name: "Afang Soup",
+    description:
+      "A delicious Nigerian soup seasoned with goat meat and carefully selected ingredients.",
+    category: "Main Course",
+    cuisine: "Nigerian",
+    price: "6000",
+    image: "/images/afang-soup.jpg",
+    featured: true,
+  },
+  {
+    id: 17,
+    name: "Coke",
+    description:
+      "Cold drinks",
+    category: "Main Course",
+    cuisine: "Drinks",
+    price: "1000",
+    image: "/images/coke-can.jpg",
+    featured: false,
+  },
+  {
+    id: 18,
+    name: "Afang Soup",
+    description:
+      "Delicious Afang soup prepared with cow head and well selected ingredients.",
+    category: "Main Course",
+    cuisine: "Nigerian",
+    price: "6500",
+    image: "/images/afang-soup-2.jpg",
+    featured: true,
+  },
+   {
+    id: 19,
+    name: "Melon Soup",
+    description:
+      "A delicious Nigerian soup prepared with catfish and carefully selected ingredients.",
+    category: "Main Course",
+    cuisine: "Nigerian",
+    price: "5000",
+    image: "/images/melon-soup.jpg",
+    featured: true,
+  },
+   {
+    id: 11,
+    name: "Amala & Ewedu",
+    description:
+      "A delicious Nigerian soup prepared with catfish and carefully selected ingredients.",
+    category: "Main Course",
+    cuisine: "Nigerian",
+    price: "7000",
+    image: "/images/ewedu-amala.jpg",
+    featured: false,
+  },
+   {
+    id: 12,
+    name: "Vegetable Soup",
+    description:
+      "A delicious Nigerian soup prepared with catfish and carefully selected ingredients.",
+    category: "Main Course",
+    cuisine: "Nigerian",
+    price: "5000",
+    image: "/images/vegetable-soup.jpg",
+    featured: true,
+  },
+];
+
+export default foods;
